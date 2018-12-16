@@ -7,7 +7,7 @@ from Entity import Entity
 
 monster= Entity([randint(0,5),randint(0,5)], "M" )
 player= Entity([0,0],"P")
-treasure= Entity([6,6],"T")
+#treasure= Entity([6,6],"T")
 
 level1= World((6,6), player, 3)
 
