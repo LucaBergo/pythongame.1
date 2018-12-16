@@ -11,12 +11,12 @@ class World:
 		self.entities=  [ player ]
 
 
-		for a in range(1):
-			while True:
-				position= ([6,6])
-				if self.GetEntityAtCoords(position)==None:
-					self.entities.append(Entity(position,"T"))
-					break
+		#for a in range(1):
+			#while True:
+				#position= ([6,6])
+				#if self.GetEntityAtCoords(position)==None:
+					#self.entities.append(Entity(position,"T"))
+					#break
 
 
 
